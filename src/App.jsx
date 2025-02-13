@@ -78,12 +78,13 @@ const Footer = () => {
   return (
     <a
     className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-    href="/photo.jpg"
+    href={`${import.meta.env.BASE_URL}photo.jpg`}
     target="_blank"
     rel="noopener noreferrer"
   >
     Made with <span role="img" aria-label="heart">❤️</span>
-  </a>  
+  </a>
+  
 
   );
 };
